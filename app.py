@@ -102,9 +102,9 @@ class Timeutils():
         time_text = tk.StringVar()
         city_text = tk.StringVar()
         tk.Button(self.window, text='Get Current Time', command=lambda: self.get_time(inp, time_text, city_text)).grid(row=r+1, column=c+1, pady=2)
-        display_t = tk.Label(self.window, textvariable=time_text, font=("Courier", 20))
+        display_t = tk.Label(self.window, textvariable=time_text, font=("Verdana", 10))
         display_t.grid(row=r+2, column=c+1)
-        display_c = tk.Label(self.window, textvariable=city_text)
+        display_c = tk.Label(self.window, textvariable=city_text, font=("Verdana", 10))
         display_c.grid(row=r+3, column=c+1, pady=4)
 
     def get_time(self, inp, time_text, city_text):    
