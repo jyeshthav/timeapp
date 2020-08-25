@@ -1,0 +1,1 @@
+cache = {"India": "Asia/Kolkata", "Amsterdam": "Europe/Amsterdam", "Argentina": "America/Argentina/Buenos_Aires", "Nagpur": "Asia/Kolkata", "Germany": "Europe/Berlin", "Mumbai": "Asia/Kolkata", "Pune": "Asia/Kolkata", "Sydney": "Australia/Sydney", "Texas": "America/Chicago", "Azerbaijan": "Asia/Baku", "Timbuctoo": "America/New_York"}
